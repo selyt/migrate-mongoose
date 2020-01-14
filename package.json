@@ -1,8 +1,11 @@
 {
-  "name": "migrate-mongoose-typescript",
+  "name": "@selyt/migrate-mongoose-typescript",
   "version": "3.3.3",
   "description": "A mongoose based migration framework for node with Typescript support",
   "main": "./dist/lib.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/selyt"
+  },
   "scripts": {
     "prepublish": "scripts/prepublish.sh",
     "postpublish": "rm -r ./dist",
@@ -23,27 +26,11 @@
     "db",
     "nosql"
   ],
-  "author": "Santiago Quinteros <santiago@whyline.com>",
-  "contributors": [
-    {
-      "name": "Fernando López Guevara",
-      "email": "fernando.lguevara@propellerheadas.com.ar",
-      "url": "https://github.com/fernandolguevara"
-    },
-    {
-      "name": "Santiago Quinteros",
-      "email": "santiago@whyline.com",
-      "url": "https://github.com/santiq"
-    },
-    {
-      "name": "ahrnee",
-      "url": "https://github.com/ahrnee"
-    }
-  ],
+  "author": "Carlos Molina <carlos@selyt.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whyline/migrate-mongoose.git"
+    "url": "https://github.com/selyt/migrate-mongoose.git"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
