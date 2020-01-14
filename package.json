@@ -1,6 +1,6 @@
 {
   "name": "@selyt/migrate-mongoose-typescript",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "description": "A mongoose based migration framework for node with Typescript support",
   "main": "./dist/lib.js",
   "scripts": {
